@@ -1,0 +1,69 @@
+.row
+{
+    background-color: #fff;
+}
+
+#full-text-sec
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+#full-text
+{
+    margin: 50px;
+    padding: 0px 200px;
+}
+
+#full-text h1
+{ 
+    font-size: 24px;
+    margin: 30px 0px;
+/*    text-align: center;*/
+}
+
+#full-text span
+{
+    margin: -20px 20px 20px 0;
+}
+
+#full-text a 
+{
+    text-decoration: none;
+}
+
+#full-text img
+{
+    width: 100%;
+    height: auto;
+}
+
+#full-text div
+{
+    padding: 50px 0px;
+    font-size: 14px;
+    line-height: 25px;
+    word-spacing: 3px;
+}
+
+#comment legend
+{clear: both;}
+
+#comment input
+{
+/*    max-width: 200px;*/
+    margin-bottom: 10px;
+}
+
+#comment .btn
+{
+    margin-top: 10px;
+    font-size: 12px;
+    background-color: #107ABE;
+    color: #fff;
+}
+
+@media screen and (max-width: 990px)
+{
+    #full-text {padding: 0px;}
+}
